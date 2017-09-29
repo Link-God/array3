@@ -62,6 +62,6 @@ int main()
             cout << max << endl ;    
         }
    else {
-       std::cout << "has  sasa";
+       std::cout << "An error has occurred while reading numbers";
    }
 }
