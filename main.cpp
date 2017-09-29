@@ -48,16 +48,13 @@ int main()
                     max2[j]=array2[j]+maxA[j];    
                 
                 }
+            max=max2[0];    
            for(int j=1 ;j<10  ;j++)
                 {
-                    if (max2[j-1]< max2[j])
+                    if (max<max2[j])
                         {
                             max=max2[j];
                         }
-                    else
-                    {
-                        max=max2[j-1];
-                    }
                 }   
             cout << max << endl ;    
         }
